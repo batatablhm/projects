@@ -1,0 +1,58 @@
+* {
+  font-family: "Gill Sans", sans-serif;
+}
+
+body {
+  display: flex;
+}
+.partie-formulaire {
+  width: 50%;
+}
+input {
+  display: block;
+  background-color: rgb(226, 217, 217);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  -webkit-box-shadow: 1px 4px 9px 4px rgba(95, 100, 106, 0.59);
+  box-shadow: 1px 4px 9px 4px rgba(95, 100, 106, 0.59);
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.part-one {
+  display: flex;
+  flex-wrap: wrap;
+}
+.vico {
+  display: flex;
+  flex-wrap: wrap;
+}
+.nom {
+  padding-left: 10px;
+}
+.vil {
+  padding-left: 10px;
+}
+.cv {
+  width: 50%;
+  background-color: aquamarine;
+  box-sizing: border-box;
+}
+.part-cv {
+  background-color: rgb(250, 189, 57);
+  box-sizing: border-box;
+  border-radius: 10% 10% 10% 10%/10% 10% 10% 10%;
+  -webkit-border-radius: 10% 10% 10% 10%/10% 10% 10% 10%;
+  -moz-border-radius: 10% 10% 10% 10%/10% 10% 10% 10%;
+  -ms-border-radius: 10% 10% 10% 10%/10% 10% 10% 10%;
+  -o-border-radius: 10% 10% 10% 10%/10% 10% 10% 10%;
+  height: 1500px;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.5em 3em;
+  border: 0.16em solid #8d49db;
+  background-color: rgba(95, 100, 106, 0);
+}
